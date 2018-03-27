@@ -29,3 +29,4 @@ iptables -A INPUT -s 169.254.55.55 -j DROP
 echo -e "\nOne last thing we can play with is scanning wireless networks (assuming we have a wireless NIC)"
 iw dev wlan0 scan
 iw dev wlan0 link
+
